@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Ya.Cup 2021 Task A</string>
+
+    <!-- Notifications -->
+    <string name="recorder_notification_channel_id">recorder_notification_channel</string>
+    <string name="recorder_notification_channel_name">Работа с микрофоном</string>
+    <string name="recorder_notification_content_text">Слушаем…</string>
+    <string name="recorder_notification_content_text_auto_close">Слушаем… Перестанем через ~%d мин.</string>
+    <!-- -->
+
+    <!-- Permission Screen -->
+    <string name="splash_title_1">Для работы</string>
+    <string name="splash_title_2">приложения</string>
+    <string name="splash_title_3">разрешите доступ к</string>
+    <string name="splash_title_4">микрофону</string>
+    <string name="splash_allow">Разрешить</string>
+    <!-- -->
+
+    <!-- Home Screen -->
+    <string name="home_headset_disconnected_title">Вы подключили наушники. Это здорово! Не забывайте держать микрофон ближе к лицу</string>
+    <string name="home_start">Слушать</string>
+    <string name="home_reports">Отчёты</string>
+    <string name="home_send_report">Отправить</string>
+    <string name="home_send_later">Не сейчас</string>
+    <string name="home_report_ready">Ваш отчёт готов!</string>
+    <string name="home_end">Закончить</string>
+    <string name="home_song_1">Я раньше и не думал, что у нас</string>
+    <string name="home_song_2">На двоих с тобой одно лишь дыхание… Дыхание</string>
+    <string name="home_tutorial_1">Поднесите телефон ближе к лицу,</string>
+    <string name="home_tutorial_2">нажмите СЛУШАТЬ и начинайте</string>
+    <string name="home_tutorial_3">дышать</string>
+    <!-- -->
+
+    <!-- Cortege -->
+    <string name="csv_header">Событие,Начало-минуты:секунды.миллисекунды,Продолжительность-секунды.миллисекунды</string>
+    <string name="inhale">Вдох</string>
+    <string name="exhale">Выдох</string>
+    <string name="pause">Пауза</string>
+    <!-- -->
+
+    <!-- Reports Screen -->
+    <string name="reports_send_report">Отправить</string>
+    <string name="reports_delete_report">Удалить</string>
+    <string name="reports_item_report_name_template">Отчёт за %s</string>
+    <string name="reports_delete_report_title">Вы действительно хотите удалить отчёт?</string>
+    <string name="reports_delete_report_yes">Да</string>
+    <string name="reports_delete_report_no">Нет</string>
+    <!-- -->
+</resources>

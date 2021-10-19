@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_margin">@dimen/dp_32dp</dimen>
+
+    <dimen name="button_min_height">@dimen/dp_56dp</dimen>
+
+    <dimen name="button_text_size">@dimen/dp_24dp</dimen>
+
+    <dimen name="button_text_size_small">@dimen/dp_18dp</dimen>
+</resources>

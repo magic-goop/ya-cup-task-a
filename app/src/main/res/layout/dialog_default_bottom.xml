@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BF000000"
+    android:padding="@dimen/dp_16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dp_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/tv_action_main"
+        style="@style/App.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_32dp"
+        android:layout_marginTop="@dimen/dp_56dp"
+        android:layout_marginEnd="@dimen/dp_16dp"
+        app:layout_constraintEnd_toStartOf="@id/tv_action_secondary"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="Action" />
+
+    <TextView
+        android:id="@+id/tv_action_secondary"
+        style="@style/App.Button.Small.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_32dp"
+        android:layout_marginTop="@dimen/dp_56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="Action secondary" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

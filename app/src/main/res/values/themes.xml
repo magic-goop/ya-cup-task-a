@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="App" />
+
+    <style name="App.Theme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowBackground">@drawable/bg_app</item>
+    </style>
+
+    <style name="App.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/button_max_width</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_app_button</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+
+    <style name="App.Button.Secondary" parent="App.Button">
+        <item name="android:background">@drawable/bg_app_button_secondary</item>
+    </style>
+
+    <style name="App.Button.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/dp_16dp</item>
+        <item name="android:paddingEnd">@dimen/dp_16dp</item>
+        <item name="android:background">@drawable/bg_app_button_small</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/button_text_size_small</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+
+    <style name="App.Button.Small.Secondary" parent="App.Button.Small">
+        <item name="android:background">@drawable/bg_app_button_small_secondary</item>
+    </style>
+</resources>
